@@ -12,3 +12,9 @@ jobs:
    steps:
     - name: india
       run: echo i love my india
+
+    - name: india
+      run: echo welcome!
+
+    - name: india
+      run: echo most welcome

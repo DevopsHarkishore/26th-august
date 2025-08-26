@@ -1,0 +1,9 @@
+name: "my first github action"
+
+on:
+ push:
+   branches: 
+     - 'feature/**'
+     - 'main'
+     
+   

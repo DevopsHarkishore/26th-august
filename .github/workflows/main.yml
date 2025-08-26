@@ -5,5 +5,10 @@ on:
    branches: 
      - 'feature/**'
      - 'main'
-     
-   
+jobs:
+ terraforminit:
+   name: terraform init
+   runs-on: mygithub-runner
+   steps:
+    - name: india
+      run: echo i love my india

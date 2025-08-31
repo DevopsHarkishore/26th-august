@@ -6,7 +6,7 @@ on:
      - 'feature/**'
      - 'main'
 jobs:
- terraforminit:
+ job:
    name: terraform init
    runs-on: mygithub-runner
    steps:

@@ -5,6 +5,10 @@ on:
    branches: 
      - 'feature/**'
      - 'main'
+permissions:
+  id-token: write
+  contents: read
+
 jobs:
  job:
    name: terraform init
@@ -37,7 +41,7 @@ jobs:
         # Azure subscriptionId
         subscription-id: "07181b5e-cb73-4072-8605-0c0f9f4ae28f"
       
-          
+        auth-type: 'id-token'
 
 
 

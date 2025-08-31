@@ -24,7 +24,7 @@ jobs:
         with:
           version: latest
 
-      - name: Azure Login
+      - name: az Login
         uses: azure/login@v2
         with:
           client-id: 2193dfd5-b5a7-41e2-b9e6-b6d03318167f

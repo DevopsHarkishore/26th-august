@@ -15,19 +15,11 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
-
       - name: Print India
         run: echo "I love my India"
-
+        
       - name: Install Terraform
         uses: little-core-labs/install-terraform@v2.0.0
         with:
-          version: latest
-
-      - name: az Login
-        uses: azure/login@v2
-        with:
-          client-id: 2193dfd5-b5a7-41e2-b9e6-b6d03318167f
-          tenant-id: 2e038d55-8828-4c61-9bd1-862031ee51bb
-          subscription-id: 07181b5e-cb73-4072-8605-0c0f9f4ae28f
-          auth-type: id-token
+         version: 1.13.1
+          
